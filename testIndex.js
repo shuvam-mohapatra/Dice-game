@@ -11,6 +11,7 @@ function rollDice(){
 
   var name1 = document.querySelector(".p1").innerHTML = prompt("Enter your Player1's name.");
   var name2 = document.querySelector(".p2").innerHTML = prompt("Enter your Player2's name.");
+    alert("Please Roll the Dice");
   // Dice 1
   var randomNumber1 = Math.round((Math.random() * 5) + 1);
   var randomDiceImg = "dice" + randomNumber1 + ".png";
